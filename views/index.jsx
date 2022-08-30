@@ -25,6 +25,14 @@ function Index ({breads})  {
 
     )
 }
+  
+function Index ({breads, title}) {
+    return (
+      <Default title={title}>
+        ...
+      </Default>
+    )
+    }
 
-
+    
 module.exports = Index
