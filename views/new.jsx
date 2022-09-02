@@ -4,7 +4,10 @@ const Default = require('./layouts/Default')
 function New () {
     return (
       <Default>
-        <h2>Add a new bread</h2>
+        <div className="backButton">
+          <a href="/breads"><button>Go back to the index</button></a>
+        </div>
+
       </Default>
     )
 }
